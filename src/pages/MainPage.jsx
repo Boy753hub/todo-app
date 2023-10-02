@@ -15,8 +15,7 @@ const MainPage = () => {
     const {list, loading, resendRequest, error} = useTodoContext()
     
     const {isOpen, changeLan , data} = useHeaderContext()
-    
-console.log(changeLan)
+
   
     if(loading) return <PPA color={isOpen ? '#121212' : ''}>
 
